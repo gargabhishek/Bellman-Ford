@@ -30,7 +30,7 @@ struct Graph* create(int v, int e)
  
 void PrintGraph(int dist[], int n)
 {
-    printf("Vertex(i) &&&  Distance(d) from Source\n");
+   cout<< "Vertex(i) &&&  Distance(d) from Source"<<endl;
     for (int i = 0; i < n; ++i)
         printf("%d \t\t %d\n", i, dist[i]);
 }
